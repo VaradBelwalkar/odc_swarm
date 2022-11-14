@@ -1,0 +1,5 @@
+FROM ubuntu 
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh && apt-get update && apt-get install python3 sudo nano git python3-pip docker.io -y && useradd -m user && usermod -aG sudo,docker user && mkdir /home/user/odc_server
+WORKDIR /home/user/odc_server
+COPY ./ ./
+CMD source bin/activate;python3 manage.py runserver 0.0.0.0:8000
