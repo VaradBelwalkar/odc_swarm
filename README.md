@@ -1,6 +1,6 @@
 # odc_swarm
 ************** CURRENTLY NOT SUPPORTING **************\
-IF YOU WANT WORKING SWARM IMAGE FOR ON-DEMAND-CONTAINERS mail me at belwalkarvarad@gmail.com\
+IF YOU WANT WORKING SWARM IMAGE FOR ON-DEMAND-CONTAINERS, mail me at belwalkarvarad@gmail.com\
 ***********Prerequisites***********\
  You must have docker-engine installed where you want to run server and the user added to docker group, if not do following
  
